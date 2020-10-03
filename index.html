@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waitstaff Calculator</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Waitstaff Calculator</h1>
+    </header>
+
+    <main>
+        <div class="flex-container col">
+            <div class="flex-container row center-justify">
+                <div id="meal-details">
+                    <h2>Enter the meal details</h2>
+                    <form action="#" class="meal-details-form flex-container col right-align">
+                        <div class="form-element">
+                            <label for="price">Base Meal Price: $</label>
+                            <input type="number" id="price">
+                        </div>
+
+                        <div class="form-element">
+                            <label for="tax-rate">Tax Rate: %</label>
+                            <input type="number" id="tax-rate">
+                        </div>
+
+
+                        <div class="form-element">
+                            <label for="tip-percentage">Tip Percentage: %</label>
+                            <input type="number" id="tip-percentage">
+                        </div>
+
+                        <div class="form-element center-align">
+                            <button type="submit">Submit</button>
+                            <button type="submit">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="charges-earnings flex-container col">
+
+                    <div id="charges">
+                        <h2>Customer Charges</h2>
+
+                        <div>
+                            <p>Subtotal:</p>
+                            <p>Tip:</p>
+                            <p>Total:</p>
+
+
+                        </div>
+
+                    </div>
+
+                    <div id="earnings">
+                        <h2>My Earnings Info</h2>
+                        <div>
+                            <p>Tip Total:</p>
+                            <p>Meal count:</p>
+                            <p>Average Tip Per Meal:</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="center-align">
+                <button  type="submit">Reset</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
